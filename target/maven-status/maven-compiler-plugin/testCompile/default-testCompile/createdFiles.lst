@@ -1,0 +1,11 @@
+com\demo\TetsClasses\EmptyCart.class
+com\demo\TetsClasses\HomePage.class
+com\demo\TetsClasses\UpdateQuantity.class
+com\demo\TetsClasses\SumOfProducts.class
+com\demo\HelperClasses\FluentWaitHelper.class
+com\demo\TetsClasses\PostAComment.class
+com\demo\HelperClasses\SelectOption.class
+com\demo\TetsClasses\DenimCoatColorChange.class
+com\demo\LaunchBrowser.class
+com\demo\HelperClasses\CheckOutPage.class
+com\demo\TetsClasses\ChangeCurrency.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14446" started-at="2021-01-07T22:15:07Z" finished-at="2021-01-07T22:15:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14446" started-at="2021-01-07T22:15:07Z" finished-at="2021-01-07T22:15:22Z">
+      <class name="com.demo.TetsClasses.ChangeCurrency">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.demo.TetsClasses.ChangeCurrency@ff5b51f]" name="startDriver" is-config="true" duration-ms="13543" started-at="2021-01-07T22:14:54Z" finished-at="2021-01-07T22:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="selectCurrency()[pri:0, instance:com.demo.TetsClasses.ChangeCurrency@ff5b51f]" name="selectCurrency" duration-ms="14423" started-at="2021-01-07T22:15:07Z" finished-at="2021-01-07T22:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCurrency -->
+        <test-method status="PASS" signature="teardowm()[pri:0, instance:com.demo.TetsClasses.ChangeCurrency@ff5b51f]" name="teardowm" is-config="true" duration-ms="728" started-at="2021-01-07T22:15:22Z" finished-at="2021-01-07T22:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowm -->
+      </class> <!-- com.demo.TetsClasses.ChangeCurrency -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

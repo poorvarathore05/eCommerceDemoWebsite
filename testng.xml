@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.demo.TetsClasses.SumOfProducts"/>
+      <class name="com.demo.TetsClasses.EmptyCart"/>
+      <class name="com.demo.TetsClasses.UpdateQuantity"/>
+      <class name="com.demo.TetsClasses.HomePage"/>
+      <class name="com.demo.TetsClasses.PostAComment"/>
+      <class name="com.demo.TetsClasses.DenimCoatColorChange"/>
+      <class name="com.demo.TetsClasses.ChangeCurrency"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.demo.TetsClasses.ChangeCurrency">
+        <methods>
+          <include name="selectCurrency"/>
+          <include name="teardowm"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.demo.TetsClasses.ChangeCurrency -->
+      <class name="com.demo.TetsClasses.EmptyCart">
+        <methods>
+          <include name="NoItemInCart"/>
+          <include name="teardowm"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.demo.TetsClasses.EmptyCart -->
+      <class name="com.demo.TetsClasses.UpdateQuantity">
+        <methods>
+          <include name="updateProdQuantity"/>
+          <include name="teardowm"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.demo.TetsClasses.UpdateQuantity -->
+      <class name="com.demo.TetsClasses.HomePage">
+        <methods>
+          <include name="getHomePage"/>
+          <include name="teardowm"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.demo.TetsClasses.HomePage -->
+      <class name="com.demo.TetsClasses.DenimCoatColorChange">
+        <methods>
+          <include name="colorChange"/>
+          <include name="teardowm"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- com.demo.TetsClasses.DenimCoatColorChange -->
+      <class name="com.demo.TetsClasses.PostAComment">
+        <methods>
+          <include name="teardowm"/>
+          <include name="startDriver"/>
+          <include name="postComment"/>
+        </methods>
+      </class> <!-- com.demo.TetsClasses.PostAComment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

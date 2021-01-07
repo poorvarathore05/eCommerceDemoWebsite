@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 117.025 s <<< FAILURE! - in TestSuite
+com.demo.TetsClasses.HomePage.getHomePage  Time elapsed: 33.895 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[text()='You found a crash bug, examine the page for 5 seconds'] (tried for 30 second(s) with 250 milliseconds interval)
+	at com.demo.TetsClasses.HomePage.getHomePage(HomePage.java:23)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='You found a crash bug, examine the page for 5 seconds']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:5298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d9214ac2f0868c19230d42e81397c9d0
+*** Element info: {Using=xpath, value=//*[text()='You found a crash bug, examine the page for 5 seconds']}
+	at com.demo.TetsClasses.HomePage.getHomePage(HomePage.java:23)
+
+com.demo.TetsClasses.ChangeCurrency.selectCurrency  Time elapsed: 5.723 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'RAHUL-DELL-PC', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Rahul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:5298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d9214ac2f0868c19230d42e81397c9d0
+	at com.demo.TetsClasses.ChangeCurrency.selectCurrency(ChangeCurrency.java:19)
+
